@@ -5,6 +5,23 @@
   overflow: hidden;
   width: 100%;
 }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 body{
   margin:0;
 }
@@ -12,7 +29,9 @@ body{
   float: left;
   height:61px;
 }
-
+#banner{
+  width:100%;
+}
 button{
   height:61px;
   border: none;
@@ -109,11 +128,18 @@ button:hover{
 
 /* Kristy's CSS  */
 
-h1 {
+h1  {
   font-family: 'Lexend Deca';
   font-size: 72px;
 }
-
+.titletxt{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lexend Deca';
+  font-size: 72px;
+}
 h2 {
   font-family: 'Raleway';
   font-size: 30px;
