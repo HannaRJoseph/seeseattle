@@ -93,6 +93,7 @@ button:hover{
   display: block;
   text-align: left;
   width:200px;
+  font-family: Raleway;
 }
 
 /* Add a blue background color to dropdown links on hover */
