@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Arts in Seattle</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+    <style media="screen">
+      h1 {
+        font-family: 'Lexend Deca';
+        font-size: 72px;
+      }
+
+      h2 {
+        font-family: 'Raleway';
+        font-size: 30px;
+        margin-left: 250px;
+        margin-right: 250px;
+      }
+
+      h1, h2 {
+        text-align: center;
+      }
+
+      /* .background {
+        background-image: artbackground.jpg;
+        background-repeat: no-repeat;
+        background-size: 50% 100%;
+      } */
+
+      .container {
+        position: relative;
+        height: 48%;
+        width: auto;
+        display: inline-block;
+        /* margin-top: -5px; */
+      }
+      .image {
+          position: center;
+          float: middle;
+          width:  300px;
+          height: auto;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: auto;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #78bec6;
+      }
+
+      .container:hover .overlay {
+        opacity: 1;
+      }
+
+      .text {
+        color: white;
+        font-family: 'Raleway';
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <img src="artbackground.jpg" alt="arts" class="background">  <h1>arts</h1>
+
+    <h2>Seattle is a hub for diverse cultures and a multitude of art. Here, you’ll find many musical concerts, festivals, museums, and cultural events.</h2>
+
+    <br>
+
+    <center>
+      <div class="container">
+        <a href="kristymusic.html">
+          <img src=music.jpg alt="music" class="image">
+          <div class="overlay">
+            <div class="text">music</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="container">
+        <a href="kristyfestivals.html">
+          <img src=festivals.jpg alt="festivals" class="image">
+          <div class="overlay">
+            <div class="text">festivals</div>
+          </div>
+        </a>
+      </div>
+
+      <br> </br>
+
+      <div class="container">
+        <a href="kristymuseums.html">
+          <img src=museums.jpg alt="museums" class="image">
+          <div class="overlay">
+            <div class="text">museums</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="container">
+        <a href="kristyculture.html">
+          <img src=culture.jpg alt="culture" class="image">
+          <div class="overlay">
+            <div class="text">culture</div>
+          </div>
+        </a>
+      </div>
+
+    </center>
+  </body>
+</html>
