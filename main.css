@@ -200,6 +200,9 @@ h1, h2 {
   text-align: center;
 }
 
-.main-header {
-  text-align: center;
+.hotSpots {
+  position: center;
+  float: middle;
+  width:  430px;
+  height: auto;
 }
