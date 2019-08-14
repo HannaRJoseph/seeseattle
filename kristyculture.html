@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Arts in Seattle</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+    <style media="screen">
+      h1 {
+        font-family: 'Lexend Deca';
+      }
+
+      h2 {
+        font-family: 'Raleway';
+        margin-left: 250px;
+        margin-right: 250px;
+      }
+
+      h1, h2 {
+        text-align: center;
+      }
+
+      .container {
+        position: relative;
+        height: 48%;
+        width: auto;
+        display: inline-block;
+        /* margin-top: -20px; */
+      }
+      .image {
+          position: center;
+          float: middle;
+          width:  300px;
+          height: auto;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: auto;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #78bec6;
+      }
+
+      .container:hover .overlay {
+        opacity: 1;
+      }
+
+      .text {
+        color: white;
+        font-family: 'Raleway';
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <h1>culture</h1>
+    <h2></h2>
+
+  </body>
+</html>
