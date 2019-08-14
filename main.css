@@ -11,6 +11,10 @@
 body{
   margin:0;
 }
+#logo{
+  float: left;
+  height:61px;
+}
 
 button{
   height:61px;
