@@ -146,11 +146,19 @@ h1  {
   font-size: 72px;
 }
 .titletxt{
+  margin: auto;
   position: absolute;
+  vertical-align: middle;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Lexend Deca';
+  font-size: 72px;
+  color: white;
+}
+.banner {
+  position: relative;
   font-size: 80px;
 }
 h2 {
@@ -170,7 +178,18 @@ h1, h2 {
   background-repeat: no-repeat;
   background-size: 50% 100%;
 } */
-
+#box {
+  display: flex;
+  width: 625px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container {
+  position: relative;
+      text-align: center;
+      color: white;
+      margin-bottom: 20px;
+}
 .image {
     position: center;
     float: middle;
@@ -183,7 +202,7 @@ h1, h2 {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 225px;
   width: auto;
   opacity: 0;
   transition: .5s ease;
