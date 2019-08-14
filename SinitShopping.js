@@ -10,3 +10,6 @@ function musicclick(){
 function todoclick(){
   location.href="file:///C:/Users/girlswhocode/Desktop/seeseattle/SofiyaAttractions.html"
 }
+function logoclick(){
+  location.href="file:///C:/Users/girlswhocode/Desktop/seeseattle/hannahhome.html"
+}
