@@ -11,6 +11,9 @@
 .main {
   margin-top: 61px; /* Add a top margin to avoid content overlay */
 }
+.attractions{
+  margin-left:50px;
+}
 .container {
   position: relative;
   text-align: center;
