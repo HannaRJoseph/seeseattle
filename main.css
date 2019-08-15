@@ -273,6 +273,9 @@ body {
   margin-bottom: 5px;
 }
 
+.buyTix {
+  color: #cc0000;
+}
 .column {
   float: left;
 }
@@ -306,14 +309,18 @@ body {
   padding-right: 130px;
 }
 
-
 .subpageTitle {
+  margin: 0 auto;
+}
+
+h1.subpageTitle span {
   font-family: 'Lexend Deca';
   font-size: 72px;
   border:10px;
   border-style:solid;
   border-color:#78c7c6;
-  display:inline;
+  display: inline-block;
+  margin-top: 25px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 40px;
@@ -322,4 +329,14 @@ body {
 
 #thrift  {
   height:224.91px;
+}
+
+.googleMapsWrapper {
+  margin-top: 25px;
+  position: relative;
+}
+
+.googleMaps {
+  position: absolute;
+  right: 40px;
 }
