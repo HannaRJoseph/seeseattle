@@ -313,7 +313,7 @@ body {
   margin: 0 auto;
 }
 
-h1.subpageTitle span {
+.subpageTitle {
   font-family: 'Lexend Deca';
   font-size: 72px;
   border:10px;
@@ -332,7 +332,7 @@ h1.subpageTitle span {
 }
 
 .googleMapsWrapper {
-  margin-top: 25px;
+  margin-top: 25px; 
   position: relative;
 }
 
