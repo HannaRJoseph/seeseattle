@@ -273,6 +273,9 @@ body {
   margin-bottom: 5px;
 }
 
+.buyTix {
+  color: #cc0000;
+}
 .column {
   float: left;
 }
