@@ -11,6 +11,9 @@
 .main {
   margin-top: 61px; /* Add a top margin to avoid content overlay */
 }
+body{
+  font-family: "Raleway";
+}
 .attractions{
   margin-left:50px;
 }
@@ -32,8 +35,13 @@
 .attractions{
   left:20px;
 }
-#attractionimg{
+.attractiontxt{
+  margin-right:250px;
+}
+#pic{
   height:200px;
+  margin-left: 175px;
+  margin-right: 50px;
 }
 body{
   margin:0;
@@ -167,6 +175,11 @@ h2 {
   margin-left: 250px;
   margin-right: 250px;
   color: black;
+}
+h3{
+  font-family: 'Lexend Deca';
+  font-size: 30px;
+  color:#cc0000;
 }
 .subtitle {
   font-family: 'Raleway';
