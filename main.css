@@ -273,8 +273,8 @@ body {
   margin-bottom: 5px;
 }
 
-.buyTix {
-  color: #cc0000;
+.eventType {
+  margin-top: 3px;
 }
 .column {
   float: left;
@@ -332,11 +332,83 @@ body {
 }
 
 .googleMapsWrapper {
-  margin-top: 25px; 
+  margin-top: 25px;
   position: relative;
 }
 
 .googleMaps {
   position: absolute;
   right: 40px;
+}
+
+/* unvisited link */
+.eventLink:link {
+  color: #cc0000;
+  text-decoration: none;
+}
+
+/* visited link */
+.eventLink:visited {
+  color: #cc0000;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.eventLink:hover {
+  color: #cc0000;
+  text-decoration: underline;
+}
+
+/* selected link */
+.eventLink:active {
+  color: #cc0000;
+  text-decoration: none;
+}
+
+/* unvisited link */
+.locationLink:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+.locationLink:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.locationLink:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* selected link */
+.locationLink:active {
+  color: black;
+  text-decoration: none;
+}
+
+/* unvisited link */
+.buyTix:link {
+  color: #78c7c6;
+  text-decoration: none;
+}
+
+/* visited link */
+.buyTix:visited {
+  color: #78c7c6;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.buyTix:hover {
+  color: #78c7c6;
+  text-decoration: underline;
+}
+
+/* selected link */
+.buyTix:active {
+  color: #78c7c6;
+  text-decoration: none;
 }
