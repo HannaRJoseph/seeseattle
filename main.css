@@ -211,6 +211,7 @@ h1, h2 {
   color: white;
   margin-bottom: 20px;
 }
+
 .image {
     position: center;
     float: middle;
@@ -252,4 +253,54 @@ h1, h2 {
   float: middle;
   width:  430px;
   height: 430px;
+}
+
+body {
+  font-family: 'Raleway';
+  font-size: 18px;
+}
+.eventimage {
+  position: center;
+  float: middle;
+  width:  200px;
+  height: auto;
+}
+.eventTitle {
+  font-family: 'Lexend Deca';
+  font-size: 32px;
+  color: #cc0000;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+  text-align: left;
+}
+
+.icon {
+  height: 20px;
+  width: auto;
+}
+
+.eventLocation {
+  display: flex;
+
+}
+
+.eventDates {
+  display: flex;
+}
+
+.tabText {
+  display: flex;
+}
+.eventDescription {
+  padding-right: 130px;
 }
