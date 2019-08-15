@@ -36,7 +36,7 @@ body{
   left:20px;
 }
 .attractiontxt{
-  margin-right:250px;
+  margin-right:30px;
 }
 #pic{
   height:200px;
@@ -289,6 +289,7 @@ body {
 .icon {
   height: 20px;
   width: auto;
+  margin-right:10px;
 }
 
 .eventLD {
@@ -305,6 +306,7 @@ body {
   padding-right: 130px;
 }
 
+
 .subpageTitle {
   font-family: 'Lexend Deca';
   font-size: 72px;
@@ -316,4 +318,8 @@ body {
   padding-bottom: 15px;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+#thrift  {
+  height:224.91px;
 }
