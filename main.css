@@ -269,6 +269,8 @@ body {
   font-family: 'Lexend Deca';
   font-size: 32px;
   color: #cc0000;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 .column {
@@ -290,18 +292,16 @@ body {
   margin-right:10px;
 }
 
-.eventLocation {
-  display: flex;
-
-}
-
-.eventDates {
+.eventLD {
   display: flex;
 }
 
 .tabText {
   display: flex;
+  flex-direction: column;
+  padding-left: 10px;
 }
+
 .eventDescription {
   padding-right: 130px;
 }
