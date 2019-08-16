@@ -9,10 +9,12 @@
   /* z-index: 100; */
 }
 body{
-  font-family: "Raleway";
+  font-family: 'Raleway';
+  font-size: 18px;
+  margin:0;
 }
 .attractions{
-  margin-left:50px;
+  margin-left:75px;
 }
 .container {
   position: relative;
@@ -39,9 +41,6 @@ body{
   height:200px;
   margin-left: 175px;
   margin-right: 50px;
-}
-body{
-  margin:0;
 }
 #logo{
   float: left;
@@ -251,15 +250,10 @@ h1, h2 {
   width:  430px;
   height: 430px;
 }
-
-body {
-  font-family: 'Raleway';
-  font-size: 18px;
-}
 .eventimage {
   position: center;
   float: middle;
-  width:  200px;
+  width:  250px;
   height: auto;
 }
 .eventTitle {
