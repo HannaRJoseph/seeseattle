@@ -23,6 +23,10 @@ body{
   height: 48%;
   width: auto;
   display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
   /* margin-top: -5px; */
 }
 .centered {
@@ -200,12 +204,6 @@ h1, h2 {
   width: 625px;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-  margin-bottom: 20px;
 }
 
 .image {
