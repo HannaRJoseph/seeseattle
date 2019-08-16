@@ -403,3 +403,8 @@ h1, h2 {
   color: #78c7c6;
   text-decoration: none;
 }
+
+.active {
+    background-color: #78c7c6;
+    color: white;
+}
