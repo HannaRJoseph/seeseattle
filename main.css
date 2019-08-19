@@ -422,4 +422,51 @@ h1, h2 {
    display: flex;
    flex-direction: column;
    padding-left: 10px;
+   padding-bottom: 10px;
+}
+
+/* unvisited link */
+.eventFooterLink:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+.eventFooterLink:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.eventFooterLink:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* selected link */
+.eventFooterLink:active {
+  color: white;
+  text-decoration: none;
+}
+
+.eventTopSubtitle {
+  font-family: 'Lexend Deca';
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.eventSubtitle {
+  font-family: 'Raleway';
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
