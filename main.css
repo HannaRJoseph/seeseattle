@@ -8,10 +8,14 @@
   width: 100%;
   /* z-index: 100; */
 }
+.map{
+  margin-left:300px;
+}
 body{
   font-family: 'Raleway';
   font-size: 18px;
   margin:0;
+  overflow-x: hidden;
 }
 .attractions{
   margin-left:75px;
