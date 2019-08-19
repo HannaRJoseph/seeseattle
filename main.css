@@ -421,7 +421,6 @@ h1, h2 {
    text-align: center;
    display: flex;
    flex-direction: column;
-   padding-left: 10px;
    padding-bottom: 10px;
 }
 
@@ -454,7 +453,7 @@ h1, h2 {
   font-size: 20px;
   margin-top: 0px;
   margin-bottom: 8px;
-  padding-top: 30px;
+  padding-top: 25px;
   padding-bottom: 0px;
   padding-left: 40px;
   padding-right: 40px;
@@ -469,4 +468,16 @@ h1, h2 {
   padding-bottom: 0px;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.tabTextFooter {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.eventLDFooter {
+  display: flex;
+  margin: 0px;
+  justify-content: center;
 }
