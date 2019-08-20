@@ -1,15 +1,15 @@
 function foodclick(){
-  location.href="file:///C:/Users/girlswhocode/Desktop/seeseattle/hannahfood.html"
+  location.href="hannahfood.html"
 }
 function shoppingclick(){
-  location.href="file:///C:/Users/girlswhocode/Desktop/seeseattle/SinitShopping.html"
+  location.href="SinitShopping.html"
 }
 function musicclick(){
-  location.href="file:///C:/Users/girlswhocode/Desktop/seeseattle/kristyart.html"
+  location.href="kristyart.html"
 }
 function todoclick(){
-  location.href="file:///C:/Users/girlswhocode/Desktop/seeseattle/SofiyaAttractions.html"
+  location.href="SofiyaAttractions.html"
 }
 function logoclick(){
-  location.href="file:///C:/Users/girlswhocode/Desktop/seeseattle/hannahhome.html"
+  location.href="hannahhome.html"
 }

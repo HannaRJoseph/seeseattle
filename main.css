@@ -43,7 +43,7 @@ body{
   left:20px;
 }
 .attractiontxt{
-  margin-right:30px;
+  margin-right:155px;
 }
 #pic{
   height:200px;
@@ -480,4 +480,12 @@ h1, h2 {
   display: flex;
   margin: 0px;
   justify-content: center;
+}
+
+#boldnames {
+  font-family: 'Lexend Deca';
+}
+
+#names {
+  padding: 0px;
 }
