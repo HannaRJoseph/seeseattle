@@ -1,17 +1,17 @@
 function foodclick(){
-  location.href="file:///C:/Users/girlswhocode/Desktop/seeseattle/hannahfood.html"
+  location.href="hannahfood.html"
 }
 function shoppingclick(){
-  location.href="file:///C:/Users/girlswhocode/Desktop/seeseattle/SinitShopping.html"
+  location.href="SinitShopping.html"
 }
 function musicclick(){
-  location.href="file:///C:/Users/girlswhocode/Desktop/seeseattle/kristyart.html"
+  location.href="kristyart.html"
 }
 function todoclick(){
-  location.href="file:///C:/Users/girlswhocode/Desktop/seeseattle/SofiyaAttractions.html"
+  location.href="SofiyaAttractions.html"
 }
 function logoclick(){
-  location.href="file:///C:/Users/girlswhocode/Desktop/seeseattle/hannahhome.html"
+  location.href="index.html"
 }
 
 // const apikey="Hhh7g7bn0hkmB4TU6MZNztU0w7GotVbkq0Z0CeebeU1IQ0YHS1ilk-bJfaA40HIVCceV9ChR5Xoq2uBguvW_cOVcB27qMuJ7RdaJWgxl87bwIcdlD9UpqKVh1RZTXXYx"
