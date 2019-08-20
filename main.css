@@ -16,6 +16,7 @@ body{
   font-size: 18px;
   margin:0;
   overflow-x: hidden;
+  background-color: #fcfcfc; //changes bkgrnd to slightly off white
 }
 .attractions{
   margin-left:75px;
@@ -49,6 +50,7 @@ body{
   height:200px;
   margin-left: 175px;
   margin-right: 50px;
+  box-shadow: 10px 10px #cc0000;
 }
 #logo{
   float: left;
@@ -253,10 +255,12 @@ h1, h2 {
   height: 430px;
 }
 .eventimage {
+  box-shadow: -10px 10px #cc0000;
   position: center;
   float: middle;
   width:  250px;
   height: auto;
+
 }
 .eventTitle {
   font-family: 'Lexend Deca';

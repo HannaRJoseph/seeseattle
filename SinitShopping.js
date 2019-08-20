@@ -11,5 +11,5 @@ function todoclick(){
   location.href="SofiyaAttractions.html"
 }
 function logoclick(){
-  location.href="hannahhome.html"
+  location.href="index.html"
 }
