@@ -1,4 +1,4 @@
-z/* Sofiya's CSS: nav bar */
+/* Sofiya's CSS: nav bar */
 
 .navbar {
   background-color: white;
@@ -16,10 +16,13 @@ body{
   font-size: 18px;
   margin:0;
   overflow-x: hidden;
-  background-color: #fcfcfc; //changes bkgrnd to slightly off white
 }
 .attractions{
   margin-left:75px;
+  left:20px;
+}
+.info{
+  background-color: #fcfcfc;
 }
 .container {
   position: relative;
@@ -39,9 +42,6 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.attractions{
-  left:20px;
 }
 .attractiontxt{
   margin-right:155px;
@@ -492,4 +492,6 @@ h1, h2 {
 
 #names {
   padding: 0px;
+  width: 100%;
+  height: auto;
 }
