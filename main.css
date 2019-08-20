@@ -16,6 +16,7 @@ body{
   font-size: 18px;
   margin:0;
   overflow-x: hidden;
+  background-color: #fcfcfc; //changes bkgrnd to slightly off white
 }
 .attractions{
   margin-left:75px;
